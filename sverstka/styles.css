@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Zen+Kaku+Gothic+New&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Zen Kaku Gothic New
+    ;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 64px;
+}
+
+.header .icon{
+    width: 184px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: white;
+    font-size: 18px
+}
+.header .link{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    font-size: 24px;
+    line-height: 0.40em;
+    color: rgb(222, 230, 237);
+}
+
+.link p{
+    cursor: pointer;
+    transition: .3s all;
+
+}
+
+.link p:hover{
+    color: rgb(183, 255, 1);
+}
+
+ .container .date{
+    margin: 160px auto;
+    text-align: center;
+}
+.date h1{
+    font-size: 80px;
+    background: -webkit-linear-gradient(#ffffff, #444242);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 48px;
+}
+
+.date span{
+    font-size: 60px;
+}
+
+.date .timer{
+    width: 638px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+color: rgb(153, 157, 161);
+}
+
+.timer h2{
+    font-size: 48px;
+}
+
+.timer p{
+    font-size: 28px;
+}
